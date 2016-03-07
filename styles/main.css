@@ -1,0 +1,74 @@
+/*Base*/
+
+body {
+  font-family: Helvetica;
+  background-color: lightgrey;
+}
+
+* {
+  vertical-align: top;
+}
+
+/*Layout*/
+
+
+
+/*Modules*/
+
+.card {
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #efefef;
+  border-radius: 2px;
+}
+
+.card--avatar {
+  float: left;
+}
+
+.card--top-text {
+  float: left;
+  width: 450px;
+  margin-left: 10px;
+}
+
+.card--name {
+  margin: 0;
+  font-size: 1.1rem;
+  color: blue;
+}
+
+.card--meta-data {
+  font-size: .8rem;
+  color: grey;
+}
+
+.card--content {
+  font-size: .9rem;
+  padding-bottom: 10px;
+  line-height: 1.4;
+  border-bottom: 1px solid lightgrey;
+}
+
+.card--footer {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card--item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .8rem;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+/*State*/
+
+/*Utils*/
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
